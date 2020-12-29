@@ -55,11 +55,7 @@ Encore
         config.useBuiltIns = 'usage';
         config.corejs = 3;
     })
-    .enablePostCssLoader((options) => {
-        options.config = {
-            path: './postcss.config.js'
-        };
-    })
+    .enablePostCssLoader()
 
     // enables Sass/SCSS support
     //.enableSassLoader()
